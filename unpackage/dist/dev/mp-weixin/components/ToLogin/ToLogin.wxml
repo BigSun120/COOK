@@ -1,0 +1,1 @@
+<view data-event-opts="{{[['tap',[['getUserInfo',['$event']]]]]}}" class="ALL data-v-b1a8c1bc" style="{{(toSt)}}" bindtap="__e"></view>

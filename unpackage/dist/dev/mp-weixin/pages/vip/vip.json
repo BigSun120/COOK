@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "VIP会员",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#EE7B2D",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "to-login": "/components/ToLogin/ToLogin",
+    "u-tabs": "/uni_modules/uview-ui/components/u-tabs/u-tabs",
+    "vip-menus-list": "/components/VipMenusList/VipMenusList"
+  }
+}

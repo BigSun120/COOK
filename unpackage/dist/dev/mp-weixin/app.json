@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/vip/vip",
+    "pages/mine/mine",
+    "pages/searchMenu/searchMenu",
+    "pages/categories/categories",
+    "pages/menuDetail/menuDetail",
+    "pages/myVip/myVip",
+    "pages/payed/payed"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "首页",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "iconfontSrc": "static/iconfont.ttf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home_selected.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/vip/vip",
+        "iconPath": "static/icons/category.png",
+        "selectedIconPath": "static/icons/category_selected.png",
+        "text": "VIP"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/icons/mine.png",
+        "selectedIconPath": "static/icons/mine_selected.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

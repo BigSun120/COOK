@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "菜谱搜索",
+  "enablePullDownRefresh": false,
+  "navigationBarBackgroundColor": "#EE7B2D",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "vip-menus-list": "/components/VipMenusList/VipMenusList",
+    "render-means": "/components/RenderMeans/RenderMeans"
+  }
+}

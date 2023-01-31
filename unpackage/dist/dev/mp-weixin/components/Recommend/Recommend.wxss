@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* uni.scss */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+._ul ._li image.data-v-0614d904 {
+  width: 330rpx;
+  height: 250rpx;
+}
+._ul ._li .titleSm.data-v-0614d904 {
+  font-size: 30rpx;
+  font-weight: bolder;
+  line-height: 45rpx;
+  color: #575757;
+}
+._ul .textTwo.data-v-0614d904 {
+  display: flex;
+  justify-content: space-around;
+}
+._ul .textTwo ._span.data-v-0614d904 {
+  display: block;
+  width: 50%;
+  color: "#AAAAAA";
+  font-size: 25rpx;
+}
+._ul .textTwo .t1.data-v-0614d904::after {
+  content: "";
+  display: inline-block;
+  margin-left: 20rpx;
+  width: 30rpx;
+  height: 10px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAYAAABPhbxiAAAA60lEQVQoU62SzW3CQBSEZ+SVr5AKcAmUYCpAPnjP0AEdJCWkg8DJ0vpgUkHcQSgBKiBcLVkTPctYILiAeJenPXw7P7vEk8MnObwODCEsJM0BTEkmkvYka5KbPM/rs8NBsSiKJIqiygAAB0krkkeSlLQFMLIdx/Eyy7K/Dqyqatw0za8p2FlSRvITwASAqWwAfPVqtfd+1oFlWaaSfgYb5OzifJK0IGlubE5t204Hq5bt4ta1pG+SKcmtpHcAqUG2vfe7q1ZDCJbvA8C8L2UvKSH51udbWT6TvfscVpRzrstr45zbnYGbVh/9CP/wV2UhVeXYVAAAAABJRU5ErkJggg==);
+}
+._ul .textTwo .t2 image.data-v-0614d904 {
+  margin-left: 20rpx;
+  vertical-align: bottom;
+  width: 30rpx;
+  height: 30rpx;
+}
+
